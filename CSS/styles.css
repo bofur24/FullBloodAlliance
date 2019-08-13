@@ -33,6 +33,15 @@ h2 {
     text-decoration: none;
 }
 
+.web-link {
+    color: #17a2b8;
+}
+
+.web-link:hover {
+    color: #44d0e9;
+    text-decoration: none;
+}
+
 .phone-decoration {
     text-decoration: none;    
     color: #15621e;
@@ -71,6 +80,7 @@ footer div,
 footer div a {
     font-size: 20px;
     color: #f6f0e7;
+    text-decoration: none;
 }
 
 .nav-link:hover,
@@ -84,6 +94,7 @@ footer div a:hover {
     font-size: 20px;
     color: #f6f0e7;
     background-color: #791422;
+    text-decoration: none;
 }
 
 .nav-tabs .nav-item.show .nav-link, 
