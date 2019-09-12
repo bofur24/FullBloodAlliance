@@ -33,6 +33,11 @@ h2 {
     text-decoration: none;
 }
 
+.email-link i {
+    font-size: 30px;
+    margin: 40px auto;
+}
+
 .web-link {
     color: #17a2b8;
 }
