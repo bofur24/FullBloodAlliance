@@ -35,7 +35,7 @@ h2 {
 
 .email-link i {
     font-size: 30px;
-    margin: 40px auto;
+    margin: 10px auto;
 }
 
 .web-link {
@@ -45,6 +45,11 @@ h2 {
 .web-link:hover {
     color: #44d0e9;
     text-decoration: none;
+}
+
+.web-link i {
+    font-size: 30px;
+    margin: 10px;
 }
 
 .phone-decoration {
