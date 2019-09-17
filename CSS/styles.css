@@ -72,6 +72,16 @@ h2 {
     background: none;
 }
 
+/* Input */
+
+input {
+    max-width: 400px;;
+}
+
+.required-field {
+    color: #791422
+}
+
 /* NavBar */
 .logo {
     height: 120px;
