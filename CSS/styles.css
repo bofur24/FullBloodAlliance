@@ -84,6 +84,10 @@ h3 {
     background: none;
 }
 
+.btn-dark:hover {
+    background-color: #d46a6a;
+    border: solid 1px #975858;
+}
 /* Form */
 
 input,
