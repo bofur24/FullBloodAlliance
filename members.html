@@ -1928,9 +1928,31 @@
           <!-- End Members Tab -->
           <!-- Application Tab -->
           <div class="tab-pane fade container-bg" id="application" role="tabpanel" aria-labelledby="application-tab">
-              <h2 class="mb-3 mt-3 text-center">Membership Application</h2>
+              <h2 class="mb-3 mt-3 text-center">Membership Advantages</h2>
               <hr>
               <p class="pt-2">
+                <h3>The People</h3>
+                You are united with Fullblood Limousin breeders from around the globe, all of them with a strong belief in Fullblood Limousin cattle. When any member talks the benefits of our breed, we all reap the reqrds!
+                <hr class="hr-short">
+              </p>
+              <p class="pt-2">
+                <h3>The Advertising</h3>
+                When our alliance advertises every member gains the benefit. The ads direct the interested party to our website where every member is listed.
+              </p>
+              <p class="pt-2">
+                The website it is like having your own webpage. Breeders looking for Fullblood Limousin go to "fullbloodlimousinalliance.org" first. There they will find your farm/ranch listed in alphabetical order.
+              </p>
+              <p class="pt-2">
+                The Classifieds for a nominal fee, you can list your animals for sale on our website where they will be viewed by everyone logging on. This puts your ad where it can do the most good, in front of the people looking for your type of cattle!
+              </p> 
+              <hr class="hr-short">
+              <p class="pt-2">
+                <h3>The Promotion</h3>
+                The many benefits of Fullblood Limousin cattle are highlighted at Fairs and Shows around the country, increasing the demand for and the value of your cattle. Informed stockmen from your area looking for Fullbloods will be directed to you by the personnel working the booth.
+              </p>
+              <hr>
+              <p class="pt-2">
+                <h2 class="text-center">Membership Application</h2>
                 <a href="Documents/fla-membership-application.pdf" target="_blank"> <button type="button" class="btn btn-dark mt-2 mb-3">Membership APP</button></a><br>
                 You may fill out your membership online through our form below, or you may print the form and mail it in. (Click the buttion above to download and print)
               </p>
@@ -1948,41 +1970,40 @@
                 <a href="mailto:j.latendresse@sbcglobal.net?Subject=Membership%20Application">j.latendresse@sbcglobal.net</a>
               </p>
               <hr>
-              <form>
-                <div class="form-group">
-                  <small class="form-text text-muted"><span class="required-field">*</span> Indicates required field</small><br>
-                  <label for="farm-ranch-name">Farm/Ranch Name <span class="required-field">*</span></label>
-                  <input type="text" class="form-control" id="farm-ranch-name" aria-describedby="text" placeholder="Farm/Ranch Name" required>
-                  <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              <small class="form-text text-muted"><span class="required-field">*</span> Indicates required field</small><br>
+              <form class="row">
+                <div class="form-group col-lg-6"> <!-- Farm/Ranch Name -->
+                  <label for="farm_id">Farm/Ranch Name <span class="required-field">*</span></label>
+                  <input type="text" class="form-control" id="farm_id" aria-describedby="text" placeholder="Farm/Ranch Name" required>                  
                 </div>
-                <div class="form-group">
-                  <label for="number">NALF or Canadian Member #</label>
-                  <input type="text" class="form-control" id="number" placeholder="NALF or Canadian Member #">
+                <div class="form-group col-lg-6"> <!-- Member # -->
+                  <label for="nalf_id">NALF or Canadian Member #</label>
+                  <input type="text" class="form-control" id="nalf-id" placeholder="NALF or Canadian Member #">
                 </div>
-                <div class="form-group">
-                  <label for="herd-prefix">Herd Prefix</label>
-                  <input type="text" class="form-control" id="herd-prefix" placeholder="Herd Prefix">
+                <div class="form-group col-lg-6"> <!-- Herd -->
+                  <label for="herd_id">Herd Prefix</label>
+                  <input type="text" class="form-control" id="herd_id" placeholder="Herd Prefix">
                 </div>
-                  <div class="form-group"> <!-- Full Name -->
-                    <label for="full_name_id" class="control-label">First</label>
-                    <input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="John Deer">
+                  <div class="form-group col-lg-6"> <!-- Full Name -->
+                    <label for="full_name_id" class="control-label">Full Name</label>
+                    <input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="John Deer" required>
                   </div>
              
-                  <div class="form-group"> <!-- Street 1 -->
+                  <div class="form-group col-lg-6"> <!-- Street 1 -->
                     <label for="street1_id" class="control-label">Street Address 1</label>
-                    <input type="text" class="form-control" id="street1_id" name="street1" placeholder="Street address, P.O. box, company name, c/o">
+                    <input type="text" class="form-control" id="street1_id" name="street1" placeholder="Street address, P.O. box, company name, c/o" required>
                   </div>					
                               
-                  <div class="form-group"> <!-- Street 2 -->
+                  <div class="form-group col-lg-6"> <!-- Street 2 -->
                     <label for="street2_id" class="control-label">Street Address 2</label>
                     <input type="text" class="form-control" id="street2_id" name="street2" placeholder="Apartment, suite, unit, building, floor, etc.">
                   </div>	
                 
-                  <div class="form-group"> <!-- City-->
+                  <div class="form-group col-lg-6"> <!-- City-->
                     <label for="city_id" class="control-label">City</label>
-                    <input type="text" class="form-control" id="city_id" name="city" placeholder="Smallville">
+                    <input type="text" class="form-control" id="city_id" name="city" placeholder="Smallville" required>
                   </div>									     
-                  <div class="form-group"> <!-- State Button -->
+                  <div class="form-group col-lg-6"> <!-- State Button -->
                     <label for="state_id" class="control-label">State</label>
                     <select class="form-control" id="state_id">
                       <option value="AL">Alabama</option>
@@ -2038,12 +2059,24 @@
                       <option value="WY">Wyoming</option>
                     </select>					
                   </div>
-                  <div class="form-group"> <!-- Zip Code-->
+                  <div class="form-group col-lg-6"> <!-- Zip Code-->
                     <label for="zip_id" class="control-label">Zip Code</label>
-                    <input type="text" class="form-control" id="zip_id" name="zip" placeholder="#####">
-                  </div>		
+                    <input type="text" class="form-control" id="zip_id" name="zip" placeholder="#####" required>
+                  </div>
+                  <div class="form-group col-lg-6"> <!-- Email Address -->
+                    <label for="email_id">Email Address</label>
+                    <input type="text" class="form-control" id="email_id" placeholder="Email">
+                  </div>
+                  <div class="form-group col-lg-6"> <!-- Website -->
+                    <label for="website_id">Website</label>
+                    <input type="text" class="form-control" id="website_id" placeholder="Website">
+                  </div>	
+                  <div class="form-group col-lg-12">
+                    <label for="textarea_id">Comments</label>
+                    <textarea type="text" class="form-control" id="textarea_id" rows="3" name="other" placeholder="Comments"></textarea>
+                  </div>	
                   
-                  <div class="form-group"> <!-- Submit Button -->
+                  <div class="form-group col-lg-12"> <!-- Submit Button -->
                     <button type="submit" class="btn btn-dark mt-2">Submit</button>
                   </div>                    
               </form>
