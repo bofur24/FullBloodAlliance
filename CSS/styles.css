@@ -13,6 +13,18 @@ h2 {
     color: #d46a6a;
 }
 
+h3 {
+    font-size: 23px;
+    color: #975858;
+    text-decoration: underline;
+}
+
+.hr-short {
+    width: 500px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
 .name {
     padding-left: 150px;
 }
@@ -72,11 +84,11 @@ h2 {
     background: none;
 }
 
-/* Input */
+/* Form */
 
 input,
 select {
-    max-width: 400px;;
+    max-width: 400px;
 }
 
 .required-field {
@@ -132,4 +144,11 @@ footer div a:hover {
     .card {
         margin: auto;
     }
+
+    .hr-short {
+        width: 300px;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+        margin-top: 30px;
+    }
 }
+
