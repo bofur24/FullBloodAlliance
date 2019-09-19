@@ -62,7 +62,7 @@
       <article class="mt-5 mb-5 container">
         <ul class="mt-5 nav nav-tabs" id="NewsEventsTab" role="tablist">
           <li class="nav-item">
-            <a class="nav-link nav-link-tab active" id="news-tab" role="tab" aria-selected="true" aria-controls="news" href="#news" data-toggle="tab">News</a>
+            <a class="nav-link nav-link-tab active" id="application-tab" role="tab" aria-selected="true" aria-controls="application" href="#application" data-toggle="tab">Juniors Application</a>
           </li>
           <li class="nav-item">
             <a class="nav-link nav-link-tab" id="events-tab" role="tab" aria-selected="false" aria-controls="events" href="#events" data-toggle="tab">Events</a>
@@ -72,33 +72,149 @@
             </li>
         </ul>
         <div class="tab-content" id="NewsEventsTabContent">
-          <!-- News Tab -->
-          <div class="tab-pane fade show active container-bg" id="news" role="tabpanel" aria-labelledby="news-tab">
-              <h2 class="mb-3 mt-3 text-center">News</h2>
+          <!-- Juniors Tab -->
+          <div class="tab-pane fade show active container-bg" id="application" role="tabpanel" aria-labelledby="application-tab">
+              <h2 class="mb-3 mt-3 text-center">Juniors</h2>
               <hr>
-              <h2>2019 Sponsoership Application</h2>
+              <h2>Juniors Application</h2>
               <p class="pt-2">
-                Click on the link below to view the 2019 Fullblood Limousin Alliance Sponsorship letter. The form can be printed, completed and sent to Joe Latendresse. Please send all sponsorship money to Joe Latendresse.
+                Junior Membership is free to anyone 21 years and under. 
               </p>
-              <a href="">Download File</a>
+              <p>
+                The FLA is constantly looking for ways to help our yourth. If you have any ideas for us, please contact any of the Board members. All of their contact information
+                can be found by clicking on the Members tab.
+              </p>
+              <p>
+                Junior National Incentive is an award given to any Junior that shows a Fullblood Limousin animal at the AALF National Junior Show. The award pays $250.00.
+              </p>
+
+              <p>
+                The Fullblood Limousin Alliance recognizes that the Juniors are the future of our breed...
+              </p>
+              <hr class="hr-short">
+                You may fill out the online form or print the form and mail it in to: <br> <br>
+                Kim Kosmicke <br>
+                4920 Bado RD <br>
+                Cabool, MO 65689 <br>
+                <a class="email-link" href="mailto:flakosmicke@gmail.com?Subject=Juniors%20Application">flakosmicke@gmail.com</a>
+              </p>
+              <a href="documents/fullblood_limousin_alliance_jr_membership_application_doc_app.doc"><button type="button" class="btn btn-dark">Jr. Membership App</button></a>
               <hr>
-              <h2>Dues Required</h2>
-              <p class="pt-2">
-                Dear fellow members, <br> I am sure most of you are busy with winter and haven't even though about the fact that all your dues are being accepted at the many Associations that you might be members of. The FLA sends out an email with the dues invoice every year, in hopes that the majority of you will send a check without having to send a followup invoice by US mail.
-              </p>
-              <p>
-                Everyone appreciates your support, as each of us benefit by the participation of all. The FLA spent almost $5,000.00 in advertising alone last year, which would have not been possible without your $50.00 dues.
-              </p>
-              <p>
-                Please consider dropping a check in the mail today so we can continue to plan an amazing year promoting your Fullblood Limousin. <br><br> Thank you <br>Joe
-              </p>
-              <p>
-                Find attached an invoice to print if needed.
-              </p>
-              <a href="">Download File</a>
-              <hr>
+              <small class="form-text text-muted"><span class="required-field">*</span> Indicates required field</small><br>
+              <form class="row">
+                <div class="form-group col-lg-6"> <!-- Full Name -->
+                  <label for="full_name_id" class="control-label">Full Name <span class="required-field">*</span></label>
+                  <input type="text" class="form-control" id="full_name_id" name="full_name" placeholder="John Deer" required>
+                </div>
+                <div class="form-group col-lg-6"> <!-- Date -->
+                  <label for="date_id">Date <span class="required-field">*</span></label>
+                  <input type="text" class="form-control" id="date_id" aria-describedby="text" placeholder="Date" required>                  
+                </div>
+                <div class="form-group col-lg-6"> <!-- Date -->
+                  <label for="birth_id">Date of Birth <span class="required-field">*</span></label>
+                  <input type="text" class="form-control" id="birth_id" aria-describedby="text" placeholder="Birthdate" required>                  
+                </div>
+           
+                <div class="form-group col-lg-6"> <!-- Street 1 -->
+                  <label for="street1_id" class="control-label">Street Address 1 <span class="required-field">*</span></label>
+                  <input type="text" class="form-control" id="street1_id" name="street1" placeholder="Street address, P.O. box, company name, c/o" required>
+                </div>					
+                            
+                <div class="form-group col-lg-6"> <!-- Street 2 -->
+                  <label for="street2_id" class="control-label">Street Address 2</label>
+                  <input type="text" class="form-control" id="street2_id" name="street2" placeholder="Apartment, suite, unit, building, floor, etc.">
+                </div>	
+              
+                <div class="form-group col-lg-6"> <!-- City-->
+                  <label for="city_id" class="control-label">City <span class="required-field">*</span></label>
+                  <input type="text" class="form-control" id="city_id" name="city" placeholder="Smallville" required>
+                </div>									     
+                <div class="form-group col-lg-6"> <!-- State Button -->
+                  <label for="state_id" class="control-label">State <span class="required-field">*</span></label>
+                  <select class="form-control" id="state_id" required>
+                    <option value="AL">Alabama</option>
+                    <option value="AK">Alaska</option>
+                    <option value="AZ">Arizona</option>
+                    <option value="AR">Arkansas</option>
+                    <option value="CA">California</option>
+                    <option value="CO">Colorado</option>
+                    <option value="CT">Connecticut</option>
+                    <option value="DE">Delaware</option>
+                    <option value="DC">District Of Columbia</option>
+                    <option value="FL">Florida</option>
+                    <option value="GA">Georgia</option>
+                    <option value="HI">Hawaii</option>
+                    <option value="ID">Idaho</option>
+                    <option value="IL">Illinois</option>
+                    <option value="IN">Indiana</option>
+                    <option value="IA">Iowa</option>
+                    <option value="KS">Kansas</option>
+                    <option value="KY">Kentucky</option>
+                    <option value="LA">Louisiana</option>
+                    <option value="ME">Maine</option>
+                    <option value="MD">Maryland</option>
+                    <option value="MA">Massachusetts</option>
+                    <option value="MI">Michigan</option>
+                    <option value="MN">Minnesota</option>
+                    <option value="MS">Mississippi</option>
+                    <option value="MO">Missouri</option>
+                    <option value="MT">Montana</option>
+                    <option value="NE">Nebraska</option>
+                    <option value="NV">Nevada</option>
+                    <option value="NH">New Hampshire</option>
+                    <option value="NJ">New Jersey</option>
+                    <option value="NM">New Mexico</option>
+                    <option value="NY">New York</option>
+                    <option value="NC">North Carolina</option>
+                    <option value="ND">North Dakota</option>
+                    <option value="OH">Ohio</option>
+                    <option value="OK">Oklahoma</option>
+                    <option value="OR">Oregon</option>
+                    <option value="PA">Pennsylvania</option>
+                    <option value="RI">Rhode Island</option>
+                    <option value="SC">South Carolina</option>
+                    <option value="SD">South Dakota</option>
+                    <option value="TN">Tennessee</option>
+                    <option value="TX">Texas</option>
+                    <option value="UT">Utah</option>
+                    <option value="VT">Vermont</option>
+                    <option value="VA">Virginia</option>
+                    <option value="WA">Washington</option>
+                    <option value="WV">West Virginia</option>
+                    <option value="WI">Wisconsin</option>
+                    <option value="WY">Wyoming</option>
+                  </select>					
+                </div>
+                <div class="form-group col-lg-6"> <!-- Zip Code-->
+                  <label for="zip_id" class="control-label">Zip Code <span class="required-field">*</span></label>
+                  <input type="text" class="form-control" id="zip_id" name="zip" placeholder="#####" required>
+                </div>
+                <div class="form-group col-lg-6"> <!-- Email Address -->
+                  <label for="country_id">Country</label>
+                  <input type="text" class="form-control" id="country_id" placeholder="Country">
+                </div>
+                <div class="form-group col-lg-6"> <!-- Email Address -->
+                  <label for="phone_id">Phone Number <span class="required-field">*</span></label>
+                  <input type="text" class="form-control" id="phone_id" placeholder="###-###-####" required>
+                </div>
+                <div class="form-group col-lg-6"> <!-- Website -->
+                  <label for="email_id">Email</label>
+                  <input type="text" class="form-control" id="email_id" placeholder="Email">
+                </div>	
+                <div class="form-group col-lg-6"> <!-- Website -->
+                  <label for="member_id">Member of 4-h / FFA</label>
+                  <input type="text" class="form-control" id="member_id" placeholder="4-h / FFA">
+                </div>
+                <div class="form-group col-lg-6"> <!-- Website -->
+                  <label for="parent_id">Parent / Guardian Full Name <span class="required-field">*</span></label>
+                  <input type="text" class="form-control" id="parent_id" placeholder="Parent / Guardian Full Name" required>
+                </div>
+                <div class="form-group col-lg-12"> <!-- Submit Button -->
+                  <button type="submit" class="btn btn-dark mt-2">Submit</button>
+                </div>                    
+              </form>
           </div>
-          <!-- End News Tab -->
+          <!-- End Juniors Tab -->
           <!-- Events Tab -->
           <div class="tab-pane fade container-bg" id="events" role="tabpanel" aria-labelledby="events-tab">
               <h2 class="mb-3 mt-3 text-center">Events</h2>
