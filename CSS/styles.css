@@ -114,6 +114,13 @@ h3 {
     height: 40px;
 }
 
+/* Junior Images */
+
+.junior-img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
 
 /* Form */
 
@@ -186,6 +193,11 @@ footer div a:hover {
 
     .carousel {
         height: 350px;
+    }
+
+    .junior-img {
+        width: auto;
+        
     }
 }
 
