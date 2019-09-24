@@ -133,6 +133,25 @@ select {
     color: #791422
 }
 
+/* Modal */
+
+.image-modal {
+    height: 100%;
+    width: 100%;
+}
+
+.modal-content {
+    background-color: #f8dfba;
+}
+
+.modal-shadow:hover {
+    box-shadow: 10px 10px 5px #975858; 
+}
+
+.modal-cursor:hover {
+    cursor: pointer;
+}
+
 /* NavBar */
 .logo {
     height: 120px;
