@@ -200,6 +200,12 @@ footer div a:hover {
 
 /* Media Queries */
 
+@media only screen and (max-width: 320px ) {
+    .junior-img {
+        width: 250px;
+    } 
+}
+
 @media screen and (max-width: 775px) {
     .card {
         margin: auto;
@@ -216,8 +222,8 @@ footer div a:hover {
     }
 
     .junior-img {
-        margin-left: 50px;
-        
+        margin: auto;
+        width: 250px;
     }
 }
 
