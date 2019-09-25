@@ -216,7 +216,7 @@ footer div a:hover {
     }
 
     .junior-img {
-        width: auto;
+        margin-left: 50px;
         
     }
 }
@@ -225,5 +225,8 @@ footer div a:hover {
     .carousel {
         height: 450px;
     }
+
 }
+
+
 
