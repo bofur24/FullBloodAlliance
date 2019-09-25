@@ -144,8 +144,9 @@ select {
     background-color: #f8dfba;
 }
 
-.modal-shadow:hover {
-    box-shadow: 10px 10px 5px #975858; 
+.modal-opacity:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50); /* For IE8 and earlier*/ 
 }
 
 .modal-cursor:hover {
