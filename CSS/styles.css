@@ -217,6 +217,7 @@ footer div a:hover {
     color: #f6f0e7;
     background-color: #791422;
     text-decoration: none;
+    margin-right: 1px;    
 }
 
 .nav-tabs .nav-item.show .nav-link, 
@@ -250,6 +251,14 @@ footer div a:hover {
         margin: auto;
         max-width: 100%;
     }
+
+    .nav-small,
+    .nav-tabs .nav-link.nav-small.active {
+        font-size: 15px;
+        width: 85px;
+        margin-right: 1px;
+    }
+
 }
 
 @media screen and (max-width: 1000px ) and (min-width: 775px) {
