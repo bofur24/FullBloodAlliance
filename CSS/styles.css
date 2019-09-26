@@ -145,6 +145,13 @@ h5 {
     border: solid 1px #975858;
 }
 
+.result-img {
+    display: block;
+    height: 200px;
+    width: auto;
+    margin: 0 auto;
+}
+
 
 /* Junior Images */
 
@@ -260,12 +267,20 @@ footer div a:hover {
         margin-right: 1px;
     }
 
+    .result-img {
+        width: auto;
+    }
+
 }
 
 @media screen and (max-width: 1000px ) and (min-width: 775px) {
     .carousel {
         height: 450px;
     }
+
+    .result-img {
+        width: auto;
+    } 
 
 }
 
