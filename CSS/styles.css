@@ -152,6 +152,13 @@ h5 {
     margin: 0 auto;
 }
 
+.event-img {
+    display: block;
+    height: auto;
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 /* Junior Images */
 
