@@ -102,7 +102,7 @@ h5 {
 /* Carousel */
 
 .carousel {
-    height: 700px;
+    height: 460px;
 }
 
 .carousel-indicators li {
@@ -122,6 +122,11 @@ h5 {
 .carousel-control-prev-icon {
     width: 40px;
     height: 40px;
+}
+
+.carousel-inner > .carousel-item > img {
+    width: 640px;
+    height: 460px;
 }
 
 /* Top Button */
@@ -158,7 +163,6 @@ h5 {
     width: 80%;
     margin: 0 auto;
 }
-
 
 /* Junior Images */
 
@@ -276,6 +280,11 @@ footer div a:hover {
 
     .result-img {
         width: 300px;
+    }
+
+    .carousel-inner > .carousel-item > img {
+        width: 140px;
+        height: 300px;
     }
 
 }
