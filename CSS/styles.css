@@ -102,7 +102,7 @@ h5 {
 /* Carousel */
 
 .carousel {
-    height: 460px;
+    height: 600px;
 }
 
 .carousel-indicators li {
@@ -126,7 +126,7 @@ h5 {
 
 .carousel-inner > .carousel-item > img {
     width: 640px;
-    height: 460px;
+    height: 550px;
 }
 
 /* Top Button */
@@ -291,7 +291,7 @@ footer div a:hover {
 
 @media screen and (max-width: 1000px ) and (min-width: 775px) {
     .carousel {
-        height: 450px;
+        height: 600px;
     }
 
     .result-img {
