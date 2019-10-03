@@ -99,6 +99,7 @@ h5 {
     border: solid 1px #975858;
 }
 
+
 /* Carousel */
 
 .carousel {
@@ -299,6 +300,22 @@ footer div a:hover {
     } 
     
 }
+
+
+
+
+.filterDiv {
+    display: none;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+  .filter-container {
+    margin-top: 20px;
+    overflow: hidden;
+  }
 
 
 
